@@ -36,62 +36,6 @@ def compareAttenuation(pPE, pCS, pRS):
         #     return 'P' # passing through
 
 
-# def compareKtransition(A1, A2, B1, B3, B2):
-#     r = random.random()
-#     A = A1
-#     B = A + A2
-#     C = B + B1
-#     D = C + B3
-#     E = D + B2
-#     if r <= A:
-#         return 'Kalpha1', 59.318
-#     if r > A and r <= B:
-#         return 'Kalpha2', 57.982
-#     if r > B and r <= C:
-#         return 'Kbeta1', 67.245
-#     if r > C and r <= D:
-#         return 'Kbeta3', 66.952
-#     if r > D:
-#         return 'Kbeta2', 69.067
-#
-# def compareL1transition(G3, B3, B4):
-#     r = random.random()
-#     A = G3
-#     B = A + B3
-#     C = B + B4
-#     if r <= A:
-#         return 'L1gamma3', 11.675
-#     if r > A and r <= B:
-#         return 'L1beta3', 9.819
-#     if r > B :
-#         return 'L1beta4', 9.526
-#
-# def compareL2transition(B1, G1):
-#     r = random.random()
-#     A = B1
-#     B = A + G1
-#     if r <= A:
-#         return 'L2beta1', 9.672
-#     if r > A:
-#         return 'L2gamma1', 11.286
-#
-# def compareL3transition(L, A2, A1, B2):
-#     r = random.random()
-#     A = L
-#     B = A + A2
-#     C = B + A1
-#     D = C + B2
-#     if r <= A:
-#         return 'L3l', 7.388
-#     if r > A and r <=B:
-#         return 'L3alpha2', 8.335
-#     if r > B and r <= C:
-#         return 'L3alpha1', 8.398
-#     if r > C:
-#         return "L3beta2", 9.962
-
-
-
 def compareKtransition(A1, A2, B1, B3, B2):
     r = random.random()
     A = A1
